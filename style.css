@@ -1,0 +1,62 @@
+body {
+    background-image: url("img/photo_2024-10-24_21-15-19.jpg");
+}
+
+p {
+    font-size:x-large;
+}
+
+li {
+    font-size:large;
+}
+
+h3 {
+    font-size: xx-large;
+    text-shadow: 0px 5px 10px rgb(12, 122, 2);
+}
+
+h1 {
+    color: rgb(146, 2, 2);
+}
+
+h2 {
+    color: rgb(146, 2, 2)
+}
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+tr {
+    border: 2px solid black;
+}
+
+td {
+    border: 2px solid black;
+}
+
+th {
+    border: 2px solid black;
+}
+
+#img1 {
+    height: 100px;
+    width: 200px;
+    animation-name: n1;
+    animation-duration: 5s;
+    animation-iteration-count: 1000000;
+}
+
+@keyframes n1 {
+    0% {
+        height: 100px;
+        width: 200px;
+    }
+    50% {
+        transform: translate(1000px,0px);
+    }
+    100% {
+        transform: translate(0px,0px);
+    }
+}
