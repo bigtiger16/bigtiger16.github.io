@@ -48,9 +48,11 @@ th {
     animation-iteration-count: 1000000;
 }
 
-#podrobneetut {
+.podrobneetut {
     border: 1px solid black;
     color: black;
+    background-color:cyan;
+    text-decoration: none;
 }
 
 @keyframes n1 {
