@@ -48,6 +48,11 @@ th {
     animation-iteration-count: 1000000;
 }
 
+#podrobneetut {
+    border: 1px solid black;
+    color: black;
+}
+
 @keyframes n1 {
     0% {
         height: 100px;
